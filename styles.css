@@ -1,0 +1,178 @@
+body {
+    background-size: cover;
+    background-image: url(images/top-view-different-seasonings-with-fresh-vegetables-dark-background-spicy-food-salad-health-pepper.jpg);
+}
+
+h3, h4, #dataprincipal p, #contenedor4 .nombre-plato, #result-number {
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+    font-weight: 900;
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+}
+
+#dataprincipal, #error, #contenedor3 {
+    display: none;
+    margin: 100px;
+    padding: 30px;
+}
+
+#error {
+    text-align: center;
+    font-size: 50px;
+    color: #ffffff;
+
+}
+
+#dataprincipal {
+    background-color: rgba(75, 65, 65);
+}
+
+.ingre {
+    color: white;
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+
+}
+
+.no-text {
+    display: none;
+}
+
+#fotoprincipal {
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    display: block;
+    text-align: center;
+}
+
+#card1 {
+    text-align: center;
+}
+
+#container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 20px;
+}
+
+#barra-busqueda {
+    padding: 10px;
+    width: 750px;
+    font-size: 16px;
+    background-color: #ffffff;
+    border-radius: 25px;
+    border: none;
+}
+
+#busqueda-lupa {
+    border: none;
+    width: 50px; 
+    height: 50px; 
+    overflow: hidden; 
+    border-radius: 13px;
+}
+
+#busqueda-lupa img {
+    width: 100%; 
+    height: auto; 
+
+}
+
+#busqueda-lupa:hover {
+    transform: scale(1.1); 
+    transition: transform 0.3s ease; 
+}
+
+#menuabajo {
+    position: relative;
+    width: 100px;
+    height: 40px;
+    font-size: 14px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 15px;
+}
+
+#container2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#meal-image {
+    height: 30em;
+    width: auto;
+    border-radius: 20px;
+    border: 15px solid #fff; 
+    justify-content: center;
+    align-items: center; 
+}
+
+.image-container img{
+    height: 150px;
+    width: auto;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center; 
+}
+
+#recipe {
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+#volver {
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #000000;
+    text-decoration: none;
+}
+
+#volver:hover {
+    color: #6a7073;
+    font-size: 20px; 
+    
+}
+
+#contenedor4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.card {
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    border-radius: 25px;
+    background-color: rgba(75, 65, 65);
+    padding: 30px;
+    transition: transform 0.2s ease; 
+}
+
+.card:hover {
+    transform: scale(1.1); 
+}
+
+.nombre-plato {
+    font-weight: 400;
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
